@@ -11,14 +11,14 @@ const port = process.env.PORT || 3000;
  */
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: false, limit: "50mb" }));
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "..", "public")));
 app.use(cors({ origin: true, credentials: true }));
 app.disable("x-powered-by");
 
 /**
  * App's Routes
  */
-app.use(require("./routes"));
+app.use(require("../routes"));
 
 /**
  * Start server simplified
