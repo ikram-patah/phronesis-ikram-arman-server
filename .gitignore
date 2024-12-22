@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Directory for npm modules
+node_modules/
+
+# Environment variables
+.env
+
+# Nodemon debug and reload files
+*.swp
+*.swo
+.nodemonignore
+nodemon.json
+
+# Optional npm cache directory
+.npm
+
+# Build output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage directory
+coverage/
+
+# Miscellaneous
+*.log.*
+*.seed
+*.stackdump
+*.rej
